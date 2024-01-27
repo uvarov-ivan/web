@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    margin: 30px;
+    display: inline-flex;
+    width: 100%;
+    height: 75px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+
+.head__logo__image{
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.head__links{
+    display: inline-flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__link__home{
+    color: #F25822;
+    /* font-family: Gilroy-SemiBold; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu__links{
+    color: #000;
+    /* font-family: Gilroy-Medium; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__content{
+    display: inline-flex;
+    width: 100%;
+
+}
+.top__info{
+    width: 589px;
+    height: 494px;
+}
+
+.top__heading{
+    margin: 30px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__text{
+    margin: 30px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons{
+    margin: 30px;
+    display: inline-flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__button{
+    color: #FFF;
+    /* font-family: Gilroy-Bold; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.top__image{
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
+
+.logos{
+    width: 100%;
+    height: 75px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.logo__images{
+    width: 160px;
+    flex-shrink: 0;
+
+}
